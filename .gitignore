@@ -3,3 +3,94 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Directories used by sbt
+target/
+project/target/
+project/project/
+.project
+.cache
+.history
+.lib/
+
+# Files created by sbt
+*.class
+*.log
+
+# Jar file
+*.jar
+
+# sbt specific
+lib_managed/
+src_managed/
+dist/*
+cache/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Files created by ENSIME
+.ensime
+.ensime_lucene/
+.ensime_cache/
+
+# User-specific stuff
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# VSCode specific
+.vscode/
+
+# Metals specific
+.metals/
+.bloop/
+
+# macOS
+.DS_Store
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/local-plugins.sbt
+.history
+.ensime
+.ensime_cache/
+.sbt-scripted/
+local.sbt
+
+# Bloop
+.bsp
+
+# VS Code
+.vscode/
+
+# Metals
+.bloop/
+.metals/
+metals.sbt
+
+# IDEA
+.idea
+.idea_modules
+/.worksheet/
