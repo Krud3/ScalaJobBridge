@@ -23,6 +23,7 @@ lazy val server = (project in file("."))
     scalaVersion := scala3Version,
     organization := krud3,
     libraryDependencies ++= Seq(
+      "org.scalameta" %% "munit" % "0.7.29" % Test,
       "org.typelevel"         %% "cats-effect"         % catsEffectVersion,
       "org.http4s"            %% "http4s-dsl"          % http4sVersion,
       "org.http4s"            %% "http4s-ember-server" % http4sVersion,
